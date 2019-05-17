@@ -156,144 +156,7 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- Single Blog Area -->
-               <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/18.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Festival Karier SMK – April 2019﻿</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>14 April 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> Laura Green</a>
-                            </div>
-                            <p>Memperingati Hari Pendidikan Nasional TopKarir</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                  <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/19.jpg" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">TERAA RUN10K Series JAKARTA I</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>07 Juli 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Pink</a>
-                            </div>
-                            <p>Gerakan langkahmu, Pacu prestasimu</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/20.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Lego Speed Building competition</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>04 Mei 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Polkadot</a>
-                            </div>
-                            <p>Tunjukan robot kreatifmu dan dapatkan hadiahnya</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Single Blog Area -->
-                <div class="our-blog-area section-padding-100">
         <div class="container">
-            <div class="row">
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/18.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Festival Karier SMK – April 2019﻿</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>14 April 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> Laura Green</a>
-                            </div>
-                            <p>Memperingati Hari Pendidikan Nasional TopKarir</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/19.jpg" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">TERAA RUN10K Series JAKARTA I</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>07 Juli 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Pink</a>
-                            </div>
-                            <p>Gerakan langkahmu, Pacu prestasimu</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/20.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Lego Speed Building competition</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>04 Mei 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Polkadot</a>
-                            </div>
-                            <p>Tunjukan robot kreatifmu dan dapatkan hadiahnya</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="row">
                 <div class="col-12">
                     <div class="more-blog-btn text-center">
@@ -316,7 +179,7 @@
                         <div class="single-footer-widget mb-60">
                             <!-- Footer Logo -->
                             <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-                            <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.</p>
+                            <p>Share pengalaman anda saat mengikuti event kami, jangan lupa follow juga akun MyEvent.</p>
 
                             <!-- Social Info -->
                             <div class="social-info">
