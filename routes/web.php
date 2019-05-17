@@ -40,8 +40,8 @@ Route::get('/eo_home', function () {
     return view('eo/eo_home');
 });
 
-Route::get('/eo_base', function () {
-    return view('eo/eo_base');
+Route::get('/eo_register', function () {
+    return view('eo/eo_register');
 });
 
 Route::get('/user_home', function () {
@@ -61,3 +61,5 @@ Route::post('/loginPost', 'UserController@loginPost');
 Route::get('/register', 'UserController@register');
 Route::post('/registerPost', 'UserController@registerPost');
 Route::get('/logout', 'UserController@logout');
+
+Route::post('/EORegist', 'EOController@EORegist');
