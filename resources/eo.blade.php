@@ -96,7 +96,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="assets/img/bg-img/4.jpg" alt="">
+                            <img src="assets/img/bg-img/21.jpg" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
@@ -118,7 +118,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="assets/img/bg-img/5.jpg" alt="">
+                            <img src="assets/img/bg-img/23.jpg" alt="">
                         </div>
 
                         <!-- Social Info -->
@@ -142,7 +142,7 @@
                     <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Thumb -->
                         <div class="speaker-single-thumb">
-                            <img src="img/bg-img/6.jpg" alt="">
+                           <img src="assets/img/bg-img/13.jpg" alt="">
                         </div>
                         <!-- Social Info -->
                         <div class="social-info">
@@ -306,38 +306,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="login-reg-panel">
-        <div class="login-info-box">
-            <h2>Have an account?</h2>
-            <p>Lorem ipsum dolor sit amet</p>
-            <label id="label-register" for="log-reg-show">Login</label>
-            <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
-        </div>
-                            
-        <div class="register-info-box">
-            <h2>Don't have an account?</h2>
-            <p>Lorem ipsum dolor sit amet</p>
-            <label id="label-login" for="log-login-show">Register</label>
-            <input type="radio" name="active-log-panel" id="log-login-show">
-        </div>
-                            
-        <div class="white-panel">
-            <div class="login-show">
-                <h2>LOGIN</h2>
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="button" value="Login">
-                <a href="">Forgot password?</a>
-            </div>
-            <div class="register-show">
-                <h2>REGISTER</h2>
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">
-                <input type="button" value="Register">
-            </div>
-        </div>
-    </div>
+
 
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">

@@ -8,15 +8,12 @@ git clone https://github.com/MuhamadAjie/MyEvent.git
 ~~~~
 Pull code
 ~~~~
-git pull origin backend or frontend
+git pull origin master
 ~~~~
 Push code
 ~~~~
-git push origin backend or frontend
+git push origin master
 or
-git push -u backend or frontend
+git push -u master
 ~~~~
-Change branch
-~~~~
-git checkout <name branch>
 

@@ -154,7 +154,7 @@
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>14 April 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> Laura Green</a>
                             </div>
-                            <p>Memperingati Hari Pendidikan Nasional TopKarir</p>
+                            <p>Commemorating Best National Education Day</p>
                         </div>
                         <div class="blog-btn">
                             <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
@@ -176,7 +176,7 @@
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>07 Juli 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Pink</a>
                             </div>
-                            <p>Gerakan langkahmu, Pacu prestasimu</p>
+                            <p>Move your steps, Run your performance</p>
                         </div>
                         <div class="blog-btn">
                             <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
@@ -198,7 +198,7 @@
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>04 Mei 2019</a>
                                 <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Polkadot</a>
                             </div>
-                            <p>Tunjukan robot kreatifmu dan dapatkan hadiahnya</p>
+                            <p>Show your creative robot and get the prize</p>
                         </div>
                         <div class="blog-btn">
                             <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
