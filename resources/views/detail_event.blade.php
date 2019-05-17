@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>ME - My Event HTML Template</title>
+    <title>MyEvent</title>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/img/core-img/favicon.png">
@@ -65,16 +65,16 @@
     <!-- Header Area End -->
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/37.jpg);">
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(assets/img/bg-img/27.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2 class="page-title">Event</h2>
+                        <h2 class="page-title">Detail Event</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Event</li>
+                                <li class="breadcrumb-item"><a href="event">Event</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Detail Event</li>
                             </ol>
                         </nav>
                     </div>
@@ -84,77 +84,23 @@
     </section>
     <!-- Breadcrumb Area End -->
 
-    <!-- Our Blog Area Start -->
-    <div class="our-blog-area section-padding-100">
-        <div class="container">
-            <div class="row">
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/18.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="detail">Festival Karier SMK – April 2019﻿</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>14 April 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i> Laura Green</a>
-                            </div>
-                            <p>Memperingati Hari Pendidikan Nasional TopKarir</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/19.jpg" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="detail">TERAA RUN10K Series JAKARTA I</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>07 Juli 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Pink</a>
-                            </div>
-                            <p>Gerakan langkahmu, Pacu prestasimu</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-xl-4">
-                    <div class="single-blog-area style-2 wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single blog Thumb -->
-                        <div class="single-blog-thumb">
-                            <img src="assets/img/bg-img/20.png" alt="">
-                        </div>
-                        <div class="single-blog-text text-center">
-                            <a class="blog-title" href="detail">Lego Speed Building competition</a>
-                            <!-- Post Meta -->
-                            <div class="post-meta">
-                                <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>04 Mei 2019</a>
-                                <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>Laura Polkadot</a>
-                            </div>
-                            <p>Tunjukan robot kreatifmu dan dapatkan hadiahnya</p>
-                        </div>
-                        <div class="blog-btn">
-                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <div class="jumbotron">
+        <h1 class="display-4">FESTIVAL KARIER SMK</h1>
+        <p class="lead">Sahabat TopKarir, memperingati Hari Pendidikan Nasional TopKarir bersama KEMENDIKBUD (Kementrian Pendidikan dan Kebudayaan) dan DITPSMK (Direktorat Pembinaan Sekolah Menengah Kejuruan)
+        mengadakan Festival Karier 2019 yang dapat membantu kamu dalam mengembangkan karir loh.</p>
+        <div class="text-center">
+            <img src="img/Festival.png" class="rounded" alt="Banner Festival">
+        </div>
+        <hr class="my-4">
+        <p>Catat tempat dan tanggalnya yuk :</p>
+        <ul>
+            <li>🏢 Lokasi: Area Parkir Gedung A Kemendikbud, Jakarta Pusat </li>
+            <li>📅 Waktu: Tanggal 26 April 2019, pukul 12.00-17.00 WIB </li>
+            <li>📅 Waktu: Tanggal 28-30 April 2019, pukul 08.00-16.00 WIB</li>
+        </ul>
+        <p></p>
+        <a class="btn btn-primary btn-lg" href="ticket" role="button">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
     </div>
-    <!-- Our Blog Area End -->
 
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
@@ -166,8 +112,8 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-60">
                             <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-                            <p>Share pengalaman anda saat mengikuti event kami, jangan lupa follow juga akun MyEvent.</p>
+                            <a href="#" class="footer-logo"><img src="assets/img/core-img/logo.png" alt=""></a>
+                            <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.</p>
 
                             <!-- Social Info -->
                             <div class="social-info">
@@ -254,7 +200,7 @@
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
                             <p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://IF-UIN.com" target="_blank">IF-UIN</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://IF-UIN.com" target="_blank">IF UIN</a>
 </p>
                         </div>
                     </div>
