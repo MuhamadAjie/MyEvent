@@ -32,6 +32,9 @@ Route::get('/schedule', function () {
 Route::get('/ticket', function () {
     return view('ticket');
 });
+Route::get('/detail', function () {
+    return view('detail_event');
+});
 Route::get('/event', function () {
     return view('event');
 });
