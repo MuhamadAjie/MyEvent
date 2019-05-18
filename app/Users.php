@@ -13,5 +13,6 @@ class Users extends Model
         'email',
         'username',
         'password',
+        'level'
     ];
 }

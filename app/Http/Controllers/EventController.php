@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 use App\Event;
 
 class EventController extends Controller
@@ -36,7 +37,20 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $username = Session::get('username');
+        $data = new Event();
+        $data->judul = $request->judul;
+        $data->kategori = $request->kategori;
+        $data->deskripsi = $request->deskripsi;
+        $data->alamat = $request->alamat;
+        $data->jam_event = $request->jam_event;
+        $data->tgl_mulai = $request->tgl_mulai;
+        $data->kuota_peserta = $request->kuota_peserta;
+        $data->harga_tiket = $request->harga_tiket;
+        $data->username = $username;
+        $data->save();
+
+        return redirect('/eo_home');
     }
 
     /**

@@ -40,6 +40,15 @@ Route::get('/eo_home', function () {
     return view('eo/eo_home');
 });
 
+Route::get('/eo_createEvent', function () {
+    return view('eo/eo_createEvent');
+});
+
+Route::get('/eo_login', function () {
+    return view('eo/eo_login');
+});
+
+
 Route::get('/eo_register', function () {
     return view('eo/eo_register');
 });
@@ -63,3 +72,5 @@ Route::post('/registerPost', 'UserController@registerPost');
 Route::get('/logout', 'UserController@logout');
 
 Route::post('/EORegist', 'EOController@EORegist');
+Route::post('/CreateEvent','EventController@store');
+Route::post('/EOLogin', 'EOController@EOlogin');
