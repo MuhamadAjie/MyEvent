@@ -55,9 +55,7 @@
                                 <li><a href="event">Event</a></li>
                                 <li><a href="about">About Us</a></li>
                             </ul>
-
                             <!-- Get Tickets Button -->
-                          
                         </div>
                         <!-- Nav End -->
                     </div>

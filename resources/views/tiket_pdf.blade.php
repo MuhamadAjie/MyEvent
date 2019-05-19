@@ -13,25 +13,28 @@
 	<center>
 			<h4>Bukti Pembayaran</h4>
 	</center>
- 
 	<table class='table table-bordered'>
-			<thead>
-				<tr>
-					<th>No</th>
-					<th>Nama</th>
-					<th>Email</th>
-				</tr>
-			</thead>
-            <tbody>
-				@php $i=1 @endphp
-				@foreach($kupon as $p)
-				<tr>
-					<td>{{ $i++ }}</td>
-					<td>{{$p->name}}</td>
-					<td>{{$p->email}}</td>
-				</tr>
-				@endforeach
-			</tbody>
-		</table>
+        <thead>
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>No Telephone</th>
+            <th>No Rekening</th>
+        </tr>
+        </thead>
+        <tbody>
+        @php $i=1 @endphp
+        @foreach($kupon as $p)
+        <tr>
+            <td>{{ $i++ }}</td>
+            <td>{{$p->name}}</td>
+            <td>{{$p->email}}</td>
+            <td>{{$p->pay->no_tlp}}</td>
+            <td>{{$p->pay->akun_bank}}</td>
+        </tr>
+        @endforeach
+        </tbody>
+    </table>
 </body>
 </html>

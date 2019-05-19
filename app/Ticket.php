@@ -8,4 +8,9 @@ class Ticket extends Model
 {
     protected $table = 'users';
     protected $fillable = ['name','email'];
+
+    public function pay()
+    {
+        return $this->hasOne('App\Pembayaran', 'id');
+    }
 }
