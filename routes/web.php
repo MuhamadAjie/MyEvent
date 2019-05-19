@@ -60,9 +60,8 @@ Route::get('/user_home', function () {
     return view('/user/home/base');
 });
 
-Route::get('/tiket', function () {
-    return view('tiket');
-});
+Route::get('/tiket', 'TicketController@index');
+Route::get('/tiket/cetak_pdf', 'TicketController@cetak_pdf');
 
 Route::resource('/bayar', 'PembayaranController');
 

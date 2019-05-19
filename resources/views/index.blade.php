@@ -148,7 +148,7 @@
                             <img src="assets/img/bg-img/18.png" alt="">
                         </div>
                         <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Festival Karier SMK – April 2019﻿</a>
+                            <a class="blog-title" href="detail">Festival Karier SMK – April 2019﻿</a>
                             <!-- Post Meta -->
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>14 April 2019</a>
@@ -157,7 +157,7 @@
                             <p>Memperingati Hari Pendidikan Nasional TopKarir</p>
                         </div>
                         <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                             <img src="assets/img/bg-img/19.jpg" alt="">
                         </div>
                         <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">TERAA RUN10K Series JAKARTA I</a>
+                            <a class="blog-title" href="detail">TERAA RUN10K Series JAKARTA I</a>
                             <!-- Post Meta -->
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>07 Juli 2019</a>
@@ -179,7 +179,7 @@
                             <p>Gerakan langkahmu, Pacu prestasimu</p>
                         </div>
                         <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                             <img src="assets/img/bg-img/20.png" alt="">
                         </div>
                         <div class="single-blog-text text-center">
-                            <a class="blog-title" href="#">Lego Speed Building competition</a>
+                            <a class="blog-title" href="detail">Lego Speed Building competition</a>
                             <!-- Post Meta -->
                             <div class="post-meta">
                                 <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i>04 Mei 2019</a>
@@ -201,7 +201,7 @@
                             <p>Tunjukan robot kreatifmu dan dapatkan hadiahnya</p>
                         </div>
                         <div class="blog-btn">
-                            <a href="ticket"><i class="zmdi zmdi-long-arrow-right"></i></a>
+                            <a href="detail"><i class="zmdi zmdi-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
