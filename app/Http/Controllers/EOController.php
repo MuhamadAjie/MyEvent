@@ -25,8 +25,8 @@ class EOController extends Controller
         $data->level = '2';
         $data->save();
 
-        Session::put('username','$request->username');
-        Session::put('level', '$request->level');
+        Session::put('username',$request->username);
+        Session::put('level', $request->level);
 
         return redirect('/eo_home');
     }

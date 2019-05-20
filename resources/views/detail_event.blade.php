@@ -11,10 +11,10 @@
     <title>MyEvent</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/core-img/favicon.png">
+    <link rel="icon" href="{{asset('assets/img/core-img/favicon.png')}}">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="{{asset('assets/style.css')}}">
 
 </head>
 
@@ -83,25 +83,24 @@
         </div>
     </section>
     <!-- Breadcrumb Area End -->
-
+    @foreach($show as $return)
     <div class="jumbotron">
-        <h1 class="display-4">FESTIVAL KARIER SMK</h1>
-        <p class="lead">Sahabat TopKarir, memperingati Hari Pendidikan Nasional TopKarir bersama KEMENDIKBUD (Kementrian Pendidikan dan Kebudayaan) dan DITPSMK (Direktorat Pembinaan Sekolah Menengah Kejuruan)
-        mengadakan Festival Karier 2019 yang dapat membantu kamu dalam mengembangkan karir loh.</p>
+        <h1 class="display-4">{{$return->judul}}</h1>
+        <p class="lead">{{$return->deskripsi}}</p>
         <div class="text-center">
             <img src="img/Festival.png" class="rounded" alt="Banner Festival">
         </div>
         <hr class="my-4">
         <p>Catat tempat dan tanggalnya yuk :</p>
         <ul>
-            <li>🏢 Lokasi: Area Parkir Gedung A Kemendikbud, Jakarta Pusat </li>
-            <li>📅 Waktu: Tanggal 26 April 2019, pukul 12.00-17.00 WIB </li>
-            <li>📅 Waktu: Tanggal 28-30 April 2019, pukul 08.00-16.00 WIB</li>
+            <li>🏢 Lokasi: {{$return->alamat}} </li>
+            <li>📅 Waktu: {{$return->tgl_mulai}} - {{$return->jam_event}} </li>
+            <li>   Harga Tiket: Idr. {{$return->harga_tiket}}</li>
         </ul>
         <p></p>
-        <a class="btn btn-primary btn-lg" href="ticket" role="button">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
+        <a class="btn btn-primary btn-lg" href="/ticket" role="button">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
     </div>
-
+    @endforeach
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
         <!-- Main Footer Area -->
@@ -221,15 +220,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
     <!-- Popper -->
-    <script src="assets/js/popper.min.js"></script>
+    <script src="{{asset('assets/js/popper.min.js')}}"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
     <!-- All Plugins -->
-    <script src="assets/js/confer.bundle.js"></script>
+    <script src="{{asset('assets/js/confer.bundle.js')}}"></script>
     <!-- Active -->
-    <script src="assets/js/default-assets/active.js"></script>
+    <script src="{{asset('assets/js/default-assets/active.js')}}"></script>
 
 </body>
 

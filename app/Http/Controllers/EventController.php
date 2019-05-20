@@ -17,6 +17,7 @@ class EventController extends Controller
     {
         //
         $data = Event::all();
+        return view('event', ['data' => $data]);
     }
 
     /**
@@ -59,9 +60,23 @@ class EventController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function eoshow()
     {
-        //
+        $username =  Session::get('username');
+        $show = Event::where('username',$username)->get();
+        return view('eo.eo_showEvent', ['show' => $show]);
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+public function detail_event($id)
+    {
+        $show = Event::where('id',$id)->get();
+        return view('detail_event', ['show' => $show]);
     }
 
     /**

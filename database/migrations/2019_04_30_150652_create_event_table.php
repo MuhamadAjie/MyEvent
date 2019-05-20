@@ -15,12 +15,15 @@ class CreateEventTable extends Migration
     {
         Schema::create('event', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nama', 50);
-            $table->string('foto');
+            $table->string('judul', 50);
+            $table->string('kategori');
             $table->string('deskripsi', 1000);
             $table->string('alamat', 100);
-            $table->dateTime('tgl_mulai');
-            $table->dateTime('tgl_akhir');
+            $table->string('jam_event');
+            $table->string('tgl_mulai');
+            $table->integer('kuota_peserta');
+            $table->integer('harga_tiket');
+            $table->string('username');
             $table->timestamps();
         });
     }

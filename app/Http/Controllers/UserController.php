@@ -8,7 +8,7 @@ use App\Pembayaran;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
-
+use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     /**
@@ -33,14 +33,14 @@ class UserController extends Controller
 
     public function loginPost(Request $request){
 
-        $email = $request->email;
+        $username = $request->username;
         $password = $request->password;
 
-        $data = Users::where('email',$email)->first();
-        if($data){ //apakah email tersebut ada atau tidak
-            if(Hash::check($password,$data->password)){
+        $data = DB::table('users')->where(['username'=>$username])->first();
+        if($data != null){ //apakah email tersebut ada atau tidak
+            if($password == $data->password){
                 Session::put('id',$data->id);
-                Session::put('name',$data->name);
+                Session::put('username',$data->username);
                 Session::put('email',$data->email);
                 Session::put('login',TRUE);
                 return redirect('bayar');
@@ -65,14 +65,14 @@ class UserController extends Controller
 
     public function registerPost(Request $request){
         $this->validate($request, [
-            'name' => 'required|min:4',
+            'username' => 'required|min:4',
             'email' => 'required|min:4|email|unique:users',
             'password' => 'required',
             'confirmation' => 'required|same:password',
         ]);
 
         $data =  new Users();
-        $data->name = $request->name;
+        $data->username = $request->username;
         $data->email = $request->email;
         $data->password = bcrypt($request->password);
         $data->save();

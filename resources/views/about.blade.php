@@ -108,7 +108,7 @@
                             <img src="assets/img/core-img/icon.png" alt="">
                         </div>
                         <h5>Conference</h5>
-                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+                        <p>Kami memastikan setiap, pertemuan anda terupdate</p>
                     </div>
                 </div>
 
@@ -120,7 +120,7 @@
                             <img src="assets/img/core-img/icon-2.png" alt="">
                         </div>
                         <h5>Workshops</h5>
-                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+                        <p>Kami juga menyediakan tempat bagi anda untuk workshops</p>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
                             <img src="assets/img/core-img/icon-3.png" alt="">
                         </div>
                         <h5>Coffee Breaks</h5>
-                        <p>On the other hand, we denounce with righteous indignation</p>
+                        <p>Jadwal event yang padat membuat anda harus break sejenak</p>
                     </div>
                 </div>
 
@@ -144,7 +144,7 @@
                             <img src="assets/img/core-img/icon-4.png" alt="">
                         </div>
                         <h5>Events</h5>
-                        <p>These cases are perfectly simple and easy to distinguish in a free hour</p>
+                        <p>Semua event yang anda butuhkan ada disini, jadi bersiaplah</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,6 @@
                         <h6 class="wow fadeInUp" data-wow-delay="300ms">About Event Organizer</h6>
                         <h3 class="wow fadeInUp" data-wow-delay="300ms">Welcome to the Event</h3>
                         <p class="wow fadeInUp" data-wow-delay="300ms">Event Organizer adalah pengelola suatu kegiatan (Pengorganisir Acara). Setiap kegiatan yang di selenggarakan bertujuan untuk memperoleh keuntungan di kedua belah pihak, baik penyelenggara maupun yang hadir pada saat kegiatan berlangsung.</p>
-                        <a href="#" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Interested <i class="zmdi zmdi-long-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -334,55 +333,6 @@
                                         </div>
                                     </li>
                                 </ol>
-                            </div>
-                        </div>
-
-                        <!-- Leave A Reply -->
-                        <div class="confer-leave-a-reply-form clearfix">
-                            <h4 class="mb-30">Leave A Comment</h4>
-                            
-                            <!-- Leave A Reply -->
-                            <div class="contact_form">
-                                <form action="#" method="post">
-                                    <div class="contact_input_area">
-                                        <div class="row">
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control mb-30" name="name" id="name-2" placeholder="Last Name" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12 col-lg-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number">
-                                                </div>
-                                            </div>
-                                            <!-- Form Group -->
-                                            <div class="col-12">
-                                                <div class="form-group">
-                                                    <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Message" required></textarea>
-                                                </div>
-                                            </div>
-                                            <!-- Button -->
-                                            <div class="col-12">
-                                                <button type="submit" class="btn confer-btn">Send Message <i class="zmdi zmdi-long-arrow-right"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>

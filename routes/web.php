@@ -32,12 +32,8 @@ Route::get('/schedule', function () {
 Route::get('/ticket', function () {
     return view('ticket');
 });
-Route::get('/detail', function () {
-    return view('detail_event');
-});
-Route::get('/event', function () {
-    return view('event');
-});
+Route::get('/detail/{id}','EventController@detail_event');
+Route::get('/event', 'EventController@index');
 
 Route::get('/eo_home', function () {
     return view('eo/eo_home');
@@ -60,7 +56,7 @@ Route::get('/user_home', function () {
     return view('/user/home/base');
 });
 
-Route::get('/tiket', 'TicketController@index');
+Route::get('tiket', 'TicketController@index');
 Route::get('/tiket/cetak_pdf', 'TicketController@cetak_pdf');
 
 Route::resource('/bayar', 'PembayaranController');
@@ -76,3 +72,4 @@ Route::get('/logout', 'UserController@logout');
 Route::post('/EORegist', 'EOController@EORegist');
 Route::post('/CreateEvent','EventController@store');
 Route::post('/EOLogin', 'EOController@EOlogin');
+Route::get('/eo_showEvent', 'EventController@eoshow');
